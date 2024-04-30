@@ -19,10 +19,10 @@
     <modules>
         <module>microservice-gateway</module>
         <module>microservice-eureka</module>
-        <module>microservice-config</module>
-        <module>microservice-student</module>
-        <module>microservice-course</module>
-        <module>microservice-usuario</module>
+            <module>microservice-config</module>
+        <!--<module>microservice-student</module>
+          <module>microservice-course</module> -->
+            <module>microservice-usuario</module>
         <module>microservice-diario</module>
     </modules>
 

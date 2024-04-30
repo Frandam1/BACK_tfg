@@ -18,6 +18,14 @@ spring:
           uri: 'http://localhost:9090'
           predicates:
             - Path=/api/course/**
+        - id: diario
+          uri: 'http://localhost:7090'
+          predicates:
+            - Path=/api/diario/**
+        - id: usuario
+          uri: 'http://localhost:7090'
+          predicates:
+            - Path=/api/diario/**
 eureka:
   client:
     register-with-eureka: false

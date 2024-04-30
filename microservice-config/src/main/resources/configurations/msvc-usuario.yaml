@@ -3,10 +3,10 @@ server:
 
 spring:
   application:
-    name: msvc-course
+    name: msvc-diario
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/coursesDb
+    url: jdbc:mysql://localhost:3306/usuariodb
     username: root
     password:
   jpa:
